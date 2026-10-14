@@ -55,7 +55,7 @@ h1 {
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
+  gap: 8px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -153,7 +153,7 @@ button:focus-visible {
   }
   .gallery {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 8px;
   }
 }
 @media (prefers-reduced-motion: reduce) {
